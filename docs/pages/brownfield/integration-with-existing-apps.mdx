@@ -1,0 +1,23 @@
+---
+title: Integrating a React Native view into existing native apps
+sidebar_title: Overview
+hideTOC: true
+description: An overview of how you can integrate a React Native view into existing native apps ("brownfield" apps).
+---
+
+import { BookOpen02Icon } from '@expo/styleguide-icons/outline/BookOpen02Icon';
+
+import { BoxLink } from '~/ui/components/BoxLink';
+
+React Native is great when you are starting a new mobile app from scratch. However, it also works well for adding a single view or user flow to existing native applications. With a few steps, you can add new React Native based features, screens, views, etc.
+
+The specific steps are different depending on what platform you're targeting.
+your first
+
+### 1. Set up directory structure
+
+The standard for react-native projects is for the native projects to be located under /android and /ios,
+but this may not be possible for large codebases that want to explore using react-native. For such cases we recommend two different approaches, setting up monorepo or using frameworks
+
+To ensure a smooth experience, create a new folder for your integrated React Native project,
+When possible **move your existing Android and iOS projects** to the `/android` and `/ios` subfolder respectively.
