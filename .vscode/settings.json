@@ -1,6 +1,39 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "eslint.workingDirectories": [
-    { "pattern": "*" },
-  ]
+    {
+      "pattern": "*"
+    },
+  ],
+  "workbench.editor.editorActionsLocation": "default",
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.alwaysShowEditorActions": true,
+  "workbench.editor.autoLockGroups": {
+    "default": true,
+    "workbench.editorinputs.sidebysideEditorInput": true
+  },
+  "workbench.editor.defaultBinaryEditor": "jsProfileVisualizer.heapsnapshot.table",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.limit.excludeDirty": true,
+  "workbench.editor.navigationScope": "editor",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.preferHistoryBasedLanguageDetection": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.scrollToSwitchTabs": false,
+  "workbench.editor.sharedViewState": true,
+  "workbench.editor.wrapTabs": true,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.aiStats.enabled": true,
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "editor.autoIndentOnPaste": true,
+  "editor.codeActions.triggerOnFocusChange": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnSave": true,
+  "codium.codeCompletion.enable": false
 }
