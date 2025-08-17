@@ -3,6 +3,9 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "stkb.rewrap",
-    "unifiedjs.vscode-mdx"
+    "unifiedjs.vscode-mdx",
+    "codium.codium",
+    "taldennis-unfoldai-chatgpt-copilot.unfoldai",
+    "ritwickdey.liveserver"
   ]
 }
